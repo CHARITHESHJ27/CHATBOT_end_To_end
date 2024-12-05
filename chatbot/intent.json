@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "How are you?", "Good morning", "Good evening"],
+      "responses": ["Hello!", "Hi there!", "How can I assist you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Goodbye!", "See you next time!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Much appreciated"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need assistance", "Help me please"],
+      "responses": ["Of course! What do you need help with?", "Sure, I'm here to assist you!"]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": ["Who are you?", "What are you?", "Tell me about yourself"],
+      "responses": ["I am a chatbot created to assist you.", "I'm here to answer your questions and help you."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "How's the weather?", "Tell me the weather"],
+      "responses": ["I'm not sure about the weather right now, but you can check a weather app.", "It depends on where you are. Check your local weather report!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What's your age?", "Tell me your age"],
+      "responses": ["I am timeless!", "Age is just a concept for me, as I'm a bot."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+      "responses": ["Why don’t skeletons fight each other? They don’t have the guts!", "What do you call fake spaghetti? An impasta!"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Tell me the time", "Current time?"],
+      "responses": ["I recommend checking your device's clock for the most accurate time!", "It's time for you to shine!"]
+    },
+    {
+      "tag": "food",
+      "patterns": ["What should I eat?", "Suggest me some food", "I'm hungry"],
+      "responses": ["How about some pizza or pasta?", "Try a healthy salad or a delicious burger!"]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["Give me motivation", "Inspire me", "Say something motivational"],
+      "responses": ["Believe in yourself! You can achieve anything you set your mind to.", "Keep pushing forward. Every step brings you closer to your goals!"]
+    },
+    {
+      "tag": "favorite_color",
+      "patterns": ["What's your favorite color?", "Do you like colors?", "What's the best color?"],
+      "responses": ["I like all colors equally!", "Every color has its own beauty."]
+    }
+  ]
+}
